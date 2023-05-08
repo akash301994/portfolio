@@ -5,11 +5,10 @@
 
 
 header {
+    display: flexbox;
     background-image: url(./images/banner-943868__340.webp);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    border-radius: 4px;
+    
+    margin: 10px;
 }
 
 h1 {
@@ -18,14 +17,14 @@ h1 {
 }
 
 body {
-    background-color: rgb(31, 175, 151);
+    background-color: rgb(255, 255, 255);
 }
 
 #middle {
     background-image: url(./images/banner-943868__340.webp);
     display: flexbox;
     margin: 10px;
-    
+
     
 }
 
@@ -45,3 +44,20 @@ nav ul li {
     color: aliceblue;
 }
 
+footer {
+    background-color: aquamarine;
+
+}
+
+#aside {
+    
+    display: flex;
+    flex-direction:row;
+}
+
+#profile {
+    align-items: end;
+    height: 10px;
+    width: 10px;
+
+}
