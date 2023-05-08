@@ -1,0 +1,59 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* img#background {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 40vh;
+    width: webkit-fill-available;
+    background-image: url(./assets/images/headerimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+} */
+
+/* li {
+    display: flex;
+    justify-content: end;
+    
+
+} */
+
+
+/* .card-holder {
+    display: inline;
+    float: inline-end;
+    
+    
+} */
+
+header {
+    
+    background-image: url(./assets/images/headerimg.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(31, 175, 151);
+}
+
+#middle {
+    background-color: brown;
+}
+
+.card-holder ul li {
+    display: inline;
+    justify-content: end;
+
+    
+}
