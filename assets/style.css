@@ -1,38 +1,11 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* img#background {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 40vh;
-    width: webkit-fill-available;
-    background-image: url(./assets/images/headerimg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   
-} */
 
-/* li {
-    display: flex;
-    justify-content: end;
-    
-
-} */
-
-
-/* .card-holder {
-    display: inline;
-    float: inline-end;
-    
-    
-} */
 
 header {
-    
-    background-image: url(./assets/images/headerimg.jpg);
+    background-image: url(./images/banner-943868__340.webp);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -40,7 +13,8 @@ header {
 }
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    color: aliceblue;
 }
 
 body {
@@ -49,11 +23,22 @@ body {
 
 #middle {
     background-color: brown;
+    background-image: url(./images/banner-943868__340.webp);
 }
+
 
 .card-holder ul li {
     display: inline;
-    justify-content: end;
+    justify-content: space-evenly;
 
     
 }
+
+nav ul li {
+    color: aliceblue;
+}
+
+.info {
+    color: aliceblue;
+}
+
