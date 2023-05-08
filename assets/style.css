@@ -22,8 +22,11 @@ body {
 }
 
 #middle {
-    background-color: brown;
     background-image: url(./images/banner-943868__340.webp);
+    display: flexbox;
+    margin: 10px;
+    
+    
 }
 
 
